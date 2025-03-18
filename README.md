@@ -35,6 +35,8 @@ The Vagrant VM is configured with the following settings:
 - **CPUs**: `4`
 - **Synced Folder**: The current directory is synced to `/vagrant` inside the VM.
 
+**Note:** Working on parallel processing for the vm, to improve the download/parse speed. 
+
 ### Provisioning
 
 The VM is provisioned with the following software:
@@ -52,7 +54,10 @@ The VM is provisioned with the following software:
     ./vm_go.sh
     ```
 
-2. **If that doesn't work, make sure you have virtual box and Vagrant installed**:
+2. **If that doesn't work, make sure you have virtual box and Vagrant installed and check if the pypy3(More Efficient than Python3 in this scenario) is selected as the interpretor with requests and tdqm module installed with the pip command**:
+
+Links provided under prerequisites.
+
 
 3. **To Download IEX Data, make sure to check the following. Directory can remain the same**:
     ```sh
@@ -60,6 +65,8 @@ The VM is provisioned with the following software:
     ```
 
     Replace `<START_DATE>` and `<END_DATE>` with the desired date range in `YYYY-MM-DD` format.
+
+**Note:** Download for each day will give you 5-7 GB of compressed files. Make sure to have the storage space for that.
 
 ## Ignored Files
 
