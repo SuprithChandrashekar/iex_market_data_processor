@@ -54,9 +54,9 @@ The VM is provisioned with the following software:
     ./vm_go.sh
     ```
 
-2. **If that doesn't work, make sure you have virtual box and Vagrant installed and check if the pypy3(More Efficient than Python3 in this scenario) is selected as the interpretor with requests and tdqm module installed with the pip command**:
+2. **If that doesn't work**:
 
-Links provided under prerequisites.
+Check the links provided under prerequisites, and make sure you have virtual box and Vagrant installed. Use pypy3(More Efficient than Python3 in this scenario) as the interpretor with requests and tdqm module installed with the pip command Links provided under prerequisites.
 
 
 3. **To Download IEX Data, make sure to check the following. Directory can remain the same**:
