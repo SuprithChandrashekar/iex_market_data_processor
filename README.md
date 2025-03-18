@@ -47,19 +47,16 @@ The VM is provisioned with the following software:
 
 ## Running the Scripts
 
-1. **SSH into the Vagrant VM**:
+1. **Running vm_go.sh using the git bash Terminal should start the process**:
     ```sh
-    vagrant ssh
+    ./vm_go.sh
     ```
 
-2. **Navigate to the Project Directory**:
-    ```sh
-    cd /vagrant/src
-    ```
+2. **If that doesn't work, make sure you have virtual box and Vagrant installed**:
 
-3. **Download IEX Data**:
+3. **To Download IEX Data, make sure to check the following. Directory can remain the same**:
     ```sh
-    python download_iex_pcaps.py --start-date <START_DATE> --end-date <END_DATE> --download-dir /vagrant/downloads
+    python3 src/download_iex_pcaps.py --start-date 2024-08-01 --end-date 2024-08-02 --download-dir data/iex_downloads/
     ```
 
     Replace `<START_DATE>` and `<END_DATE>` with the desired date range in `YYYY-MM-DD` format.
