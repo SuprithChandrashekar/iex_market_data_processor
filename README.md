@@ -2,6 +2,11 @@
 
 This repository contains scripts and configurations for downloading and analyzing IEX market data using a Vagrant virtual machine.
 
+## Academic Attribution
+
+This work was completed as part of High Frequency Trading Technology at University of Illinois Urbana Champaign, under the supervision of Professor David Lariviere.  
+The project builds upon their research in [specific field/topic] and incorporates valuable feedback received during [course/independent study].
+
 ## Prerequisites
 
 - [Vagrant](https://www.vagrantup.com/downloads)
