@@ -5,7 +5,7 @@ This repository contains scripts and configurations for downloading and analyzin
 ## Academic Attribution
 
 This work was completed as part of High Frequency Trading Technology at University of Illinois Urbana Champaign, under the supervision of Professor David Lariviere.  
-The project builds upon their research in [specific field/topic] and incorporates valuable feedback received during [course/independent study].
+The project tweaks and builds upon their work on IEX pcap parser and incorporates personal modifcation for experimentation during the course/project.
 
 ## Prerequisites
 
